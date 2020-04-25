@@ -3,6 +3,7 @@
 
 ## 已知問題
 持續載入內容的網站效能不佳或失效。
+替換方式粗暴，如果正在編輯內容，內容更改的問題。
 
 ## Demo
 ![](https://github.com/goescat/ok_wx_hxx_fei_yan/blob/master/demo.gif)
