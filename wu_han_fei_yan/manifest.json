@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "好的中國武漢肺炎",
+  "description": "新冠肺炎、COVID-19？看不懂啦，幫你正名為武漢肺炎。",
+  "version": "1.0",
+
+  "permissions": ["activeTab"],
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "matches": ["http://*/*","https://*/*"]
+    }
+  ]
+}
